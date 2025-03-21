@@ -10,6 +10,8 @@ function add(){
 }
 
 function sub() {
+   if(count>0){
     count--;
     newcounter();
+   }
 }
